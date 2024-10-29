@@ -10,12 +10,12 @@ import Contact from "./components/Contact.js";
 import Cart from "./components/Cart.js";
 import Error from "./components/error.js";
 import RestaurantMenu from "./components/RestaurantMenu.js";
-import Grocery from "./components/Grocery.js";
+// import Grocery from "./components/Grocery.js";
 import Usercontext from "./utils/Usercontext.js";
 import { Provider } from "react-redux";
 import appStore from "./utils/appstore.js";
 
-const Grocery = lazy(() => import("./components/Grocery.js"));
+const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
   const [userName, setUserName] = useState();
